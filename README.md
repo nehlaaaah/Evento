@@ -1,29 +1,10 @@
+Tink-Her-Hack 2.0
 # Evento
 
 Problem Statement: Recieving lack of informations towards the college students about various fest,events,workshops,hackathons etc equally.
+
 Solution:Design and develop a user friendly platform that allows users to browse through a diverse range of events,encompassing cultural festivals, technical symposiums, hackathons, workshops and seminars.
 
+Stack used :  html,css,python(flask)
 
-
-stack=html,css,python(flask)
-login form
-<form id="loginForm" action="/login" method="post">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-    <button type="submit">Login</button>
-</form>
-
-choose your role form
-<div>
-    <p>Choose Your Role:</p>
-    <input type="radio" id="organizer" name="role" value="organizer" required>
-    <label for="organizer">Event Organizer</label><br>
-    <input type="radio" id="participant" name="role" value="participant" required>
-    <label for="participant">Event Participant</label><br>
-</div>
-
-css styling
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="part.css">
+The provided Stack serves as a foundational structure for creating a user login page for an event management platform, catering to various events, including hackathons and college events. This platform will help students to get notified and participate in various events conducted in various colleges arounded by them equally. 
