@@ -6,7 +6,14 @@ Two input fields for username and password, both marked as required.
 A submit button labeled "Login" to trigger form submission.
 Form action set to "/login" for data submission handling.
 Method set to "post" for secure data transmission.
-Finally, there's a link to an external CSS file (style.css) for styling the HTML elements, ensuring a visually appealing and cohesive design.                                 
+Finally, there's a link to an external CSS file (style.css) for styling the HTML elements, ensuring a visually appealing and cohesive design. 
+
+ Use a server-side language like Python (with Flask or Django), Node.js (with Express.js), or PHP to handle the backend logic. Implement user authentication to verify login credentials and manage user sessions securely.
+Utilize a database (e.g., MySQL, PostgreSQL) to store user data, event details, registrations, etc., and interact with it using appropriate queries.
+ When the login form is submitted, the backend should receive the form data, validate it, and process it accordingly.
+Depending on the authentication status, the backend should respond with appropriate messages or redirect users to different pages.
+Implement security measures like encryption (e.g., hashing passwords), input validation, and protection against common vulnerabilities (e.g., SQL injection, cross-site scripting).
+
 The <h1> heading "Choose Your Role" clearly communicates the purpose of the page.
 Two radio buttons are provided for role selection: one for "Event Organizer" and one for "Event Participant".
 Each radio button is accompanied by a <label> element for better accessibility and user experience.
