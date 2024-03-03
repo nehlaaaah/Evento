@@ -14,7 +14,7 @@ Utilize a database (e.g., MySQL, PostgreSQL) to store user data, event details, 
 Depending on the authentication status, the backend should respond with appropriate messages or redirect users to different pages.
 Implement security measures like encryption (e.g., hashing passwords), input validation, and protection against common vulnerabilities (e.g., SQL injection, cross-site scripting).
 
-The <h1> heading "Choose Your Role" clearly communicates the purpose of the page.
+ The <h1> heading "Choose Your Role" clearly communicates the purpose of the page.
 Two radio buttons are provided for role selection: one for "Event Organizer" and one for "Event Participant".
 Each radio button is accompanied by a <label> element for better accessibility and user experience.
 The id attributes of the radio buttons (organizer and participant) match the for attributes of their respective <label> elements, establishing a connection between the label and the input for improved usability.
