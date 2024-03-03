@@ -1,0 +1,42 @@
+/* Reset default styles */
+body, h1, label {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Change background color to black */
+    color: white; /* Change text color to white */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 18px; /* Set font size for the slogan */
+    margin-bottom: 20px; /* Add some space between the slogan and the form */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
